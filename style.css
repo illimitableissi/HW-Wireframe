@@ -6,7 +6,7 @@ body {
     font-size: 18px
 }
 
-header, Nav, Section, Aside, Footer{
+header, Nav, Section, Footer, aside{
     background: #ebebeb;
     text-align: center;
     padding: 10px;
@@ -16,16 +16,40 @@ header, Nav, Section, Aside, Footer{
 
 Article{
     color: #ebebeb;
-    background: #777
+    background: #777;
+    border: 10px;
+    margin: 10px;
+    padding: 12px;
+
 }
 
 h1, p{
     color: #777;
     background: #ebebeb;
-    font-size: 18px
+    font-size: 18px;
+    padding:10px;
+    margin: 5px
 }
 
-section
-{
-    width: 495px
+section{
+    width: 495px;
+}
+
+aside{
+    background: #ebebeb;
+    text-align: center;
+    padding: 88px;
+    margin: 10px;
+    border: 50px;
+    width: 229px
+}
+
+
+.clearfix {
+    content: "";
+    float: left
+}
+
+footer{
+    clear: both
 }
